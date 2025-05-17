@@ -24,6 +24,12 @@ public class TC_LoginTestWithInvalidDataa extends BaseClass{
 
 	{   
 	    LoginPage lp= new LoginPage(driver);
+	    System.out.println("First sentence");
+	    System.out.println("Second sentence");
+	    System.out.println("Third sentence");
+	    System.out.println("Fourth sentence");
+
+
 		logger.info("********Test Starts Here********");
         logger.info("'loginTestWithInValidData' test execution starts here:");
 	    logger.info("Opening URL: "+baseURL);
