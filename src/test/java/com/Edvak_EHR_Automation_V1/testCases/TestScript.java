@@ -29,6 +29,7 @@ public class TestScript {
 		actions.moveToElement(element).click().build().perform();
 		Thread.sleep(5000);
 		driver.close();
+		System.out.println("Inclde this one also");
 	}
 
 }
